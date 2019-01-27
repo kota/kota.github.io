@@ -2,6 +2,8 @@
 
 このプログラムはPokerStarsのハンド履歴に対してPioSOLVERを自動で走らせる機能を提供します。
 
+PokerStarsの6max Zoomにのみ対応しています。
+
 Windows10で動作を確認しています。
 
 ![screenshot](./images/piohelper_screenshot.png)
