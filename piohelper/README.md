@@ -1,6 +1,7 @@
 ﻿# PioHelperとは
 
 このプログラムはPokerStarsのハンド履歴に対してPioSOLVERを自動で走らせる機能を提供します。
+
 Windows10で動作を確認しています。
 
 ![screenshot](./images/piohelper_screenshot.png)
