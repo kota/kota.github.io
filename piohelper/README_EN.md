@@ -5,6 +5,10 @@ Currently, only PokerStars 6max Zoom is supported.
 
 Tested on Windows 10, but may work on Windows 7 or older.
 
+![screenshot](./images/piohelper_screenshot.png)
+
+[Download PioHelper.zip](./releases/PioHelper_0_1_3.zip)
+
 # Install
 
 Extract the downloaded zip to an appropriate directory.
