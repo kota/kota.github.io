@@ -2,9 +2,21 @@
 
 このプログラムはPokerStarsのハンド履歴に対してPioSOLVERを自動で走らせる機能を提供します。
 
-![screenshot](/images/piohelper_screenshot.png)
+PokerStarsの6max Zoomにのみ対応しています。
 
-[Download PioHelper.zip](./releases/PioHelper_0_1_2.zip)
+Windows10で動作を確認しています。
+
+![screenshot](./images/piohelper_screenshot.png)
+
+[Download PioHelper.zip](./releases/PioHelper_0_1_3.zip)
+
+# インストール
+
+ダウンロードしたzipを適当なディレクトリに展開する。
+
+# アップデート
+
+ダウンロードしたzipを展開してPioHelper.extをインストールしたディレクトリに上書きする。
 
 # 使い方
 
@@ -20,6 +32,8 @@
 ### PioSOLVERのパラメタを設定
 - bet size, raise size, accuracyを入力する。
   - bet size, raise sizeは%記法のみ。PioSolverが提供している"x2.5"のような記法には未対応。
+  - "30, 60"のようにカンマ区切りで複数のサイズを入力可能。
+
 
 ### ハンドの読み込み
 
@@ -63,4 +77,6 @@
 
 ### 解析
 - "GO"ボタンをクリックする。
+  - "include river"をチェックするとリバーまで含めた.cfrファイルが生成される。
+  - リバーを含めるとファイルサイズが大きくなるので必要に応じてチェックする。
 - しばらく待つと画面下部のログに"Analyzed all hands successfully."と表示され、各ハンドの.cfrファイルがこのプログラムのexeファイルと同階層のSaveディレクトリ内に生成される。
